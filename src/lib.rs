@@ -1,5 +1,5 @@
-use actix_web::{App, HttpResponse, HttpServer, Responder, web};
 use actix_web::dev::Server;
+use actix_web::{App, HttpResponse, HttpServer, Responder, web};
 
 async fn health_check() -> impl Responder {
     HttpResponse::Ok()
